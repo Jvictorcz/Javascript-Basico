@@ -110,22 +110,29 @@
 
 // Condicionais - IF
 
-var idade = parseInt(prompt("Digite sua idade:"));
+// var idade = parseInt(prompt("Digite sua idade:"));
 
 
-if (idade >= 30) {
-    alert("Você pode consumir bebidas alcoólicas.")
-    var bebida = prompt("Qual é o seu pedido?", bebida);
-    alert("O seu pedido é uma " + bebida + ".");
-} 
-else if (idade >= 18) {
-    alert("Você possui uma idade menor que 30 anos. ");
-    alert("Mostre a sua identidade.");
-} 
-else {
-    alert("Você não possui a idade mínima pra ingerir bebidas alcoólicas.");
-    alert("Volte quando estiver a idade mínima pra o consumo de bebidas alcoólicas.")
-}
+// if (idade >= 30) {
+//     alert("Você pode consumir bebidas alcoólicas.")
+//     var bebida = prompt("Qual é o seu pedido?", bebida);
+//     alert("O seu pedido é uma " + bebida + ".");
+// } 
+// else if (idade >= 18) {
+//     alert("Você possui uma idade menor que 30 anos. ");
+//     alert("Mostre a sua identidade.");
+// } 
+// else {
+//     alert("Você não possui a idade mínima pra ingerir bebidas alcoólicas.");
+//     alert("Volte quando estiver a idade mínima pra o consumo de bebidas alcoólicas.")
+// }
 
 
+// Operador ternario
+
+var idade = 20;
+
+var pode = idade >=18 ? "Pode" : "Não pode" ;
+
+console.log(pode);
 
