@@ -193,12 +193,17 @@
 // console.log("Acabou");
 
 
-var numero = -5;
+// var numero = 0;
 
-while(numero<0){
+// while(numero<5){
 
-    console.log("Número "+ numero);
-    numero++;
-}
+//     console.log("Número "+ numero);
+//     numero +=1;
+// }
 
-console.log("Acabou");
+// console.log("Acabou");
+
+
+// Arrays
+
+
