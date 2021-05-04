@@ -256,3 +256,35 @@
 // var number = Number(prompt("Tabuada de multiplicação, digite um número: "));
 
 // mult(number);
+
+
+// Funções parte 2 (função anônima)
+
+// var media = function (n1,n2){
+//     return (n1 + n2)/2;
+// }
+
+// var m = media(7,6);
+
+// console.log(m);
+
+
+// Juntando tudo até aqui
+
+
+// Nome do aluno - nota 1 - nota 2 - média - Aprovado / Reprovado
+
+
+var nomes = ["jj"];
+var notaA = [];
+var notaB = [];
+
+function media(n1,n2){
+    return (n1 + n2 )/2;
+}
+
+for(index in nomes){
+    console.log(index);
+}
+
+
