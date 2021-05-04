@@ -145,14 +145,14 @@
 // var media = (nota1 + nota2 ) / 2;
 
 // if(media >= 8){
-    
+
 //     conceito = "Ótimo"
 // }
 // else if( media >= 6.5) {
-  
+
 //     conceito = "Bom"
 // }else{
-    
+
 //     conceito = "Regular"
 // }
 
@@ -207,3 +207,52 @@
 // Arrays
 
 
+// var empresas = ["Google", "Facebook", "Sony", "Lenovo", "Youtube", "Samsung"];
+
+// console.log(empresas)
+
+//Usando o for:
+
+// index(i): é a posição de cada elemento dentro do array.
+
+// for (var i = 0;i < empresas.length; i++){
+//     console.log(empresas[i]);
+// }
+
+// outra forma de usar o for , o in é usado para pegar os index do array e o of é usado pra pegar os elementos do array.
+
+// for (var empresa of empresas) {
+//     console.log(empresa)
+// }
+
+
+// Funções
+
+// function media(n1,n2){;
+
+//     var valor1 =n1;
+//     var valor2 = n2;
+//     var media = (n1 + n2)/2;
+
+//     return media;
+
+// }
+//  var n1 = Number(prompt("Digite o primeiro valor: "));
+//  var n2 = Number(prompt("Digite o segundo valor: "));
+
+// alert("A media entre esses número é : "+ media(n1,n2));
+
+
+// Tabuada usando o function:
+
+// function mult (number){
+//     for(var i= 0; i <=10; i++ ){
+//       var result =  i * number;
+//       console.log(number + " * " + i + " = " + result);
+//     }
+//     return mult;
+// }
+
+// var number = Number(prompt("Tabuada de multiplicação, digite um número: "));
+
+// mult(number);
