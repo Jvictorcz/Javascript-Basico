@@ -275,9 +275,9 @@
 // Nome do aluno - nota 1 - nota 2 - média - Aprovado / Reprovado
 
 
-var nomes = ["jj"];
-var notaA = [];
-var notaB = [];
+var nomes = ["Victor","Maria","Carlos"];
+var notaA = [7.5, 6.5 ,10];
+var notaB = [6.1, 7, 9];
 
 function media(n1,n2){
     return (n1 + n2 )/2;
