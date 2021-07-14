@@ -125,7 +125,7 @@
 // else {
 //     alert("Você não possui a idade mínima pra ingerir bebidas alcoólicas.");
 //     alert("Volte quando estiver a idade mínima pra o consumo de bebidas alcoólicas.")
-// }
+//}
 
 
 // Operador ternário
@@ -204,6 +204,17 @@
 // console.log("Acabou");
 
 
+// var numero =Math.random() * 100;
+
+// while (numero < 80 ){
+
+//     console.log(numero);
+//     numero = Math.random() * 100;
+// }
+
+// console.log(numero);
+// console.log("Acabou");
+
 // Arrays
 
 
@@ -275,16 +286,15 @@
 // Nome do aluno - nota 1 - nota 2 - média - Aprovado / Reprovado
 
 
-var nomes = ["Victor","Maria","Carlos"];
-var notaA = [7.5, 6.5 ,10];
-var notaB = [6.1, 7, 9];
+// var nomes = ["Victor","Maria","Carlos"];
+// var notaA = [7.5, 6.5 ,10];
+// var notaB = [6.1, 7, 9];
 
-function media(n1,n2){
-    return (n1 + n2 )/2;
-}
+// function media(n1,n2){
+//     return (n1 + n2 )/2;
+// }
 
-for(index in nomes){
-    console.log(index);
-}
-
+// for(index in nomes){
+//     console.log(index);
+// }
 
