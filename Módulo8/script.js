@@ -218,7 +218,8 @@
 // Arrays
 
 
-// var empresas = ["Google", "Facebook", "Sony", "Lenovo", "Youtube", "Samsung"];
+// var empresas = ["Google", "Facebook", "Sony",
+//              "Lenovo", "Youtube", "Samsung"];
 
 // console.log(empresas)
 
@@ -226,7 +227,7 @@
 
 // index(i): é a posição de cada elemento dentro do array.
 
-// for (var i = 0;i < empresas.length; i++){
+// for (var i = 0 ; i < empresas.length ; i++){
 //     console.log(empresas[i]);
 // }
 
@@ -241,17 +242,17 @@
 
 // function media(n1,n2){;
 
-//     var valor1 =n1;
+//     var valor1 = n1;
 //     var valor2 = n2;
 //     var media = (n1 + n2)/2;
 
 //     return media;
 
 // }
-//  var n1 = Number(prompt("Digite o primeiro valor: "));
-//  var n2 = Number(prompt("Digite o segundo valor: "));
+//  var resultado1 = Number(prompt("Digite o primeiro valor: "));
+//  var resultado2 = Number(prompt("Digite o segundo valor: "));
 
-// alert("A media entre esses número é : "+ media(n1,n2));
+// alert("A media entre esses número é : "+ media(resultado1,resultado2));
 
 
 // Tabuada usando o function:
@@ -275,7 +276,7 @@
 //     return (n1 + n2)/2;
 // }
 
-// var m = media(7,6);
+// var m = media(10,6);
 
 // console.log(m);
 
@@ -286,15 +287,60 @@
 // Nome do aluno - nota 1 - nota 2 - média - Aprovado / Reprovado
 
 
-// var nomes = ["Victor","Maria","Carlos"];
-// var notaA = [7.5, 6.5 ,10];
-// var notaB = [6.1, 7, 9];
+// var nomes = ["Kleyce", "Klenylce", "Victor", "Paulo"];
+// var notasA = [5.5, 7.5, 10, 6.0];
+// var notasB = [7.5, 8.0, 7.0, 9];
 
-// function media(n1,n2){
-//     return (n1 + n2 )/2;
+// function media(n1, n2) {
+//     return (n1 + n2) / 2 ;
 // }
 
-// for(index in nomes){
-//     console.log(index);
+// function passou(media){
+
+//     if(media > 7){
+//         return "Aprovado";
+//     }
+//     else{
+//         return "Reprovado"
+//     }
 // }
 
+// for (var index in nomes) {
+
+//     var notas1 = notasA[index];
+//     var notas2 = notasB[index];
+//     var m = media(notas1,notas2);
+
+//     console.log(nomes[index] + 
+//             " - " +
+//             notas1 +
+//             " - " +
+//             notas2 + 
+//             " - " +
+//             m + 
+//             " - " +
+//             passou(m));
+// }
+
+// Objetos - Propriedades
+
+// var aluno = {
+//     nome: "Victor",
+//     notas :[7.0, 8.0]
+// }
+
+// var novaProp = "sobrenome";
+
+// aluno.matricula = 12345;
+// aluno[novaProp] = "Fonseca";
+
+// console.log(aluno);
+
+//outra forma de criar um objeto:
+
+// var aluno = new Object();
+
+// aluno.nome = "João";
+// aluno.notas = [6.5,8.5];
+
+// console.log(aluno);
